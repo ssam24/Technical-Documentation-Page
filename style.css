@@ -1,0 +1,110 @@
+@media screen  and (max-width: 800px) {
+    body{ 
+        background-color: #EFECFE; 
+        position: relative; 
+        display: flex;
+        flex-direction: column;
+        margin-left: 0; 
+       
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #nav-bar {
+      background-color: #DCDBDC;
+      position: absolute; 
+      width: 100%;  
+      max-height: 270px;  
+      border-bottom: solid;
+      border-right: solid; 
+      border-color: black;
+      
+    }
+    #nav-bar ul {
+        height: 200px;
+      }
+    
+  }
+
+  @media only screen and (max-width: 400px) {
+    #main-doc {
+      position: relative;
+      margin-left: 0; 
+      margin-top: 275px;
+      
+      
+    }
+  }
+
+#nav-bar {
+    position: absolute;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px; 
+    height: 80%; 
+    border-right: solid;
+    border-bottom: solid; 
+    border-color: rgba(0, 22, 22, 0.4);
+    background-color: #DCDBDC ; 
+    text-align: center; 
+  }
+
+#nav-bar header {
+    color: black;
+    font-size: 1.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-justify: center; 
+    margin-top: 10px;
+   
+}
+
+#nav-bar ul {
+    list-style: none;
+    margin-top: 30px; 
+    align-items: center; 
+}
+#nav-bar li {
+    color: #4d4e53;
+    margin-top: 6px;
+    margin-right: auto;
+    border-top: 1px solid; 
+    list-style: none;
+    position: relative;
+    width: 100%;
+    padding: 10px 30px;
+
+} 
+#main-doc {
+    position: absolute;
+    width: 70%;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+    text-align: justify; 
+  
+}
+#main-doc header {
+      color: black;
+      font-size: 1.8em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+      margin: 10px;
+}
+code {
+    display: block;
+  text-align: left;
+  background-color: #DCDBDC ;
+ 
+  
+}
+  #footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    text-align: center;
+    background-color: #F0E9F8 ; 
+    width: 100%;
+    margin-top: 5%;
+}

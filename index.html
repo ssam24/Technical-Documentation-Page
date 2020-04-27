@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"> 
+
+    <title>DOCUMENTATION PAGE </title>
+</head>
+<body class="container-fluid"> 
+    <main> 
+        <div class="container-fluid">   
+        <nav id="nav-bar" class="nav-bar">  
+            <header class="tex-center"> BOOTSTRAP </header>  
+            <ul>
+                <li><a class="nav-link" href="#Introducción">Introducción</a></li> 
+                <li><a class="nav-link" href="#BootstrapCDN">BootstrapCDN</a></li>
+                <li><a class="nav-link" href="#JavaScript">JavaScript</a></li>
+                <li><a class="nav-link" href="#LayOut">LayOut</a></li>
+                <li><a class="nav-link" href="#Compatibilidad">Compatibilidad</a></li>
+                <li><a class="nav-link" href="#Referencias">Referencias</a>
+                </li>
+                <li><a class="nav-link" href="#footer">Pie de pagina</a></li>
+                
+            </ul>
+        </nav>
+    </div> 
+    <div id="main-doc" class="container-fluid">  
+        <div> 
+        <section class="main-secton" id="Introducción">
+            <header>Introducción </header>
+            <p1> Vamos a empezar por el principio, Bootstrap es un framework CSS desarrollado inicialmente (en el año 2011) por Twitter que permite dar forma a un sitio web mediante librerías CSS que incluyen tipografías, botones, cuadros, menús y otros elementos que pueden ser utilizados en cualquier sitio web.
+                Aunque el desarrollo del framework Bootstrap fue iniciado por Twitter, fue liberado bajo licencia MIT en el año 2011 y su desarrollo continua en un repositorio de GitHub.</p1>
+
+            <br>
+            <p2> 
+                Bootstrap es una excelente herramienta para crear interfaces de usuario limpias y totalmente adaptables a todo tipo de dispositivos y pantallas, sea cual sea su tamaño. Además, Bootstrap ofrece las herramientas necesarias para crear cualquier tipo de sitio web utilizando los estilos y elementos de sus librerías.
+            </p2>
+        </div>
+
+        </section>
+    <div> 
+        <section class="main-secton" id="BootstrapCDN">
+            <header>BootstrapCDN</header>
+            <h5>- CSS</h5>
+            <p3> Para comenzar a implementar Bootstrap en tus proyectos, lo único que deber hacer es agregar a tu (head) el link de referencia de Bootstrap y sus estilos, el link se ve de la siguiente manera: </p3>
+            <code> link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" </code> 
+            <br> 
+
+            <p4> Con esta simple linea de código ya tu sitio puede comenzar a adopar ciertas formas y estilos de Boostrap que te facilitarán tu proceso de creación </p4>
+
+        </section>
+    </div>
+      
+    <div> 
+        <section class="main-secton" id="JavaScript">
+            <header>JavaScript</header>
+            <p5>Para proyectos en los que desees cluir JavaScript, también deberás enlazar tu html a las funciones de JS que hayas creado, esto también se hace con un simple link, que trae Bootstrap; claramente la etiqueta "Script" debe ir cerrada adecuadamente </p5>
+            <br>
+            <code> 
+                script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"</script>
+            </code>
+
+        </section>
+    </div>
+    <div> 
+        <section class="main-secton" id="LayOut">
+            <header>LayOut</header>
+            <p6> En Bootstrap cada sección de información deve ir agrupada dentro de una etiqueta llamda "container", a esta se le agregarán diferentes caracteristicas o cualidades que harán a tu proyecto no solo más atractuvo visiualmente sino también tener un comportamiento <em>Responsive.</em> </p6>
+
+            <p7> Tener un comportamiento <em>Responsive</em> quiere decir qye tu proyecto va a tener el mismo tipo de comportamiento y distribución sin importar desde qué tipo de dispositivos está siendo visitado o manipulado por los usuarios a los que está dirigido 
+            </p7>
+
+            <h5>Containers</h5>
+            <p8> Los contenedores son el elemento de diseño más básico en Bootstrap y son necesarios cuando se utiliza nuestro sistema de cuadrícula predeterminado. Los contenedores se utilizan para contener, rellenar y (a veces) centrar el contenido dentro de ellos.Estos contenedores, se escriben de la siguiente manera en tu código html:</p8>
+
+        <ul> 
+                <li>All-in-one: 
+                     <code> 
+                         class="container"
+                     </code>
+                     </li>
+                <li> Fluid: 
+                    <code> 
+                        class="container-fluid"
+                </code>
+                </li>
+                <li> Responsive: 
+                    <br>
+                    <code>
+                    class="container-sm" 100% wide until small breakpoint
+                    <br>
+                    class="container-md">100% wide until medium breakpoint
+                    <br>
+                     class="container-lg">100% wide until large breakpoint
+                     <br>
+                     class="container-xl">100% wide until extra large breakpoint
+                 </code>
+               
+        </ul>
+        </section> 
+    </div> 
+
+        <div>
+        <section class="main-secton" id="Compatibilidad"> 
+            <header>Compatibilidad</header>
+            <p9> Boostrap es compatible con la mayoría de navegadores web del mercado, y más desde la versión 3, actualmente es totalmente compatible con los siguientes navegadores:</p9>
+            <ul>
+                <li> Google Chrome (en todas las plataformas).</li>
+                <li> Safari (tanto en iOS como en Mac).</li>
+                <li> Mozilla Firefox (en Mac y en Windows).</li>
+                <li> Opera (en Windows y Mac).</li>
+                <li> Internet Explorer (en Windows y Windows Phone).</li>
+            </ul>        
+        </section>
+    </div> 
+
+    <div> 
+        <section class="main-secton" id="Referencias">
+            <header>Referencias</header>
+            <p10> 
+                Para conocer toda la información sobre Boostrap, sus usos y las maneras de aplicarlo a tu código, visita su pagina oficial 
+
+                <a href="https://getbootstrap.com/">Bootstrap</a> 
+            </p10>
+
+        </section>
+     </div>
+
+      <div> 
+     <footer id="footer"> 
+        <p> Realizado por Samuel Crespo, para AcademiaGeek 
+            &#169; 2020 </p> 
+    </footer> 
+    </div>  
+    </div> 
+
+</main>    
+</body>
+</html>
